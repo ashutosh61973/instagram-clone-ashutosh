@@ -1,0 +1,52 @@
+* {
+  margin: 0;
+}
+
+.app {
+  background-color: #fafafa;
+  height: 100%;
+  position: relative;
+}
+.app__posts {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+.app__header {
+  object-fit: contain;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+.app__headerImage {
+  object-fit: contain;
+}
+.app__para {
+  padding: 20px 10px;
+}
+.app__signUp {
+  display: flex;
+  flex-direction: column;
+}
+#inp {
+  margin-bottom: 30px;
+  margin-top: 30px;
+  padding: 0px;
+}
+#signUp {
+  background-color: rgba(152, 152, 252, 0.377);
+  margin-top: 20px;
+  width: 50%;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+#signUp:hover {
+  background-color: rgba(39, 39, 211, 0.774);
+  color: #fafafa;
+  font-size: 105%;
+}
+.app__loginContainer {
+  border: 1px solid black;
+}
